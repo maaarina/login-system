@@ -11,14 +11,12 @@
 
     <title>Creat your account</title>
 </head>
-
 <body>
     <main class="container">    
-        <div id="login">
 
+        <div id="login">
             <h2 class="title-login">Already have an account?</h2>
             <button type="submit" class="button-login">login</button>
-
         </div>
 
         <div id="singup">
@@ -27,10 +25,13 @@
 
             <div class="container">
                 <div class="other-login">
+                    <p> In</p>
                 </div>
                 <div class="other-login">
+                    <p> G+</p>
                 </div>
                 <div class="other-login">
+                    <p> Git</p>
                 </div>
             </div>
 
@@ -45,7 +46,7 @@
                 <input type="password" name="password" id="password" placeholder="Password" required>
 
                 <div class="container">
-                    <button type="submit" class="button-singup">Entry</button>
+                    <button type="submit" name="enviar" class="button-singup">Entry</button>
                 </div>
 
             </form>
