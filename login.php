@@ -1,7 +1,5 @@
-<?
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,42 +13,19 @@
 </head>
 <body>
     <main class="container">    
-
-        <div id="login">
-            <h2 class="title-login">Already have an account?</h2>
-            <button type="submit" class="button-login">login</button>
-        </div>
-
         <div id="singup">
 
-            <h2 class="title-singup">Not have an account yet? <br> Create now</h2>
-
-            <div class="container">
-                <div class="other-login">
-                    <p> In</p>
-                </div>
-                <div class="other-login">
-                    <p> G+</p>
-                </div>
-                <div class="other-login">
-                    <p> Git</p>
-                </div>
-            </div>
-
-            <p class="container">------------------ OR ------------------</p>
+            <h2 class="title-singup"> Not have an account yet? <br> Create now </h2>
 
             <form action="" method="post" id="form">
 
-                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="text" name="name" placeholder="Name" required>
 
-                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="email" name="email" placeholder="Email" required>
 
-                <input type="password" name="password" id="password" placeholder="Password" required>
+                <input type="password" name="password" placeholder="Password" required>
 
-                <div class="container">
-                    <button type="submit" name="enviar" class="button-singup">Entry</button>
-                </div>
-
+                <input type="submit" name="enviar" class="button" value="Send">
             </form>
 
         </div>
