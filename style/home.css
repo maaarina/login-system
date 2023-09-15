@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #E8E8E8;
+    display: flex;
+}
+
+.title{
+    color: #088E86;
+    margin: auto;
+    padding-top: 10rem;
+}
