@@ -15,7 +15,7 @@
 
             if (isset($_POST['enviar']) ){
 
-                $name = 'marina';
+                $name = 'Marina';
                 $password = '123456';
 
                 $nameForm = $_POST['name'];
