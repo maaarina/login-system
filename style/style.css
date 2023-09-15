@@ -1,50 +1,103 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Poppins, sans-serif;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+#login {
+    background: linear-gradient(193deg, #088E86 9.17%, rgba(8, 142, 62, 0.74) 95.95%);
+    text-align: center;
+    width: 40%;
+    height: 100vh;
 }
 
 #singup {
-  height: 100vh;
-  width: 100%;
-  background: #E8E8E8;
+    background: #E8E8E8;
+    width: 60%;
+    height: 100vh;
+}
+
+.title-login {
+    color: #E8E8E8;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.04rem;
+
+    padding: 10rem 0 2.5rem 0;
 }
 
 .title-singup {
-  color: #088E86;
-  text-align: center;
-  font-size: 2.3rem;
-  letter-spacing: -0.04rem;
-  padding-top: 5rem;
+    color: #088E86;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: -0.04rem;
+
+    padding-top: 5rem;
 }
 
-input {
-  display: block;
-  width: 20.8rem;
-  height: 3.6rem;
-  margin: 2rem auto;
-  padding-left: 0.7rem;
-  border-radius: 0.625rem;
-  background: #D9D9D9;
+.button-login{
+    margin: 0 auto;
+    width: 12.9rem;
+    height: 3.3rem;
+
+    font-size: 1.25rem;
+    color: #ffffff;
+
+    border-radius: 1.6875rem;
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    background: rgba(106, 211, 148, 0.53);
+
+    cursor: pointer;
+    transition: 180ms;
 }
 
-.button {
-  width: 12.9rem;
-  height: 3.3rem;
-  font-size: 1.2rem;
-  color: white;
-  cursor: pointer;
-  border-radius: 1.6875rem;
-  background: rgba(8, 142, 62, 0.74);
+.button-login:hover{
+    transition: 200ms;
+    
+    width: 13.9rem;
+    height: 3.8rem;
+    
+    font-size: 1.40rem;
+    background: linear-gradient(193deg, #088e859a 9.17%, rgba(8, 142, 62, 0.452) 95.95%);
 }
 
-.button:hover {
-  background-color: #088E86;
-  transition: 1s;
-}/*# sourceMappingURL=style.css.map */
+input{
+    display: block;
+
+    width: 20.8rem;
+    height: 3.6rem;
+    margin: 2rem auto;
+    padding-left: 0.7rem;
+
+    border-radius: 0.625rem;
+    background: #D9D9D9;
+}
+
+.other-login{
+    background-color: #D9D9D9;
+
+    width: 3.03481rem;
+    height: 3.0285rem;
+    margin:  0.8rem 0.5rem;
+    border-radius: 50%;
+}
+
+.button-singup{
+    width: 12.9rem;
+    height: 3.3rem;
+
+    font-size: 1.25rem;
+    color: #ffffff;
+    cursor: pointer;
+
+    border-radius: 1.6875rem;
+    background: rgba(8, 142, 62, 0.74);
+}
